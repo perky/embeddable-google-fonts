@@ -26,4 +26,4 @@ embedGoogleFonts({
     console.log('Finished embedding fonts');
 });
 ```
-![Result](readme_images/example.png)
+![Result](https://github.com/perky/embeddable-google-fonts/blob/master/readme_images/example.PNG?raw=true)

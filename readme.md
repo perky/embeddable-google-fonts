@@ -2,6 +2,10 @@
 
 Embed Google fonts inside an SVG element. This allows SVGs to use Google Fonts, even when offline. Useful for when you want to embed an SVG inside a canvas or convert to PNG.
 
+```
+npm install embeddable-google-fonts
+```
+
 ## Example
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" id="svg-1">
@@ -17,6 +21,7 @@ Embed Google fonts inside an SVG element. This allows SVGs to use Google Fonts, 
 Make sure your SVG already has a style definition at the top.
 
 ```javascript
+import {embedGoogleFonts} from 'embeddable-google-fonts`;
 var svgNode = document.getElementById('svg-1');
 var svgStyle = svgNode.querySelector('defs > style');
 embedGoogleFonts({

@@ -60,6 +60,4 @@ function embedFont(fontFace) {
     });
 }
 
-embedGoogleFonts({
-    fonts: ['Arvo', 'Libre Baskerville', 'Uncial Antiqua']
-});
+export {embedGoogleFonts};

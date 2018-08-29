@@ -1,6 +1,6 @@
 {
   "name": "embeddable-google-fonts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Embed google fonts in an SVG element. This allows you to have an SVG that even works offline.",
   "main": "main.js",
   "dependencies": {
